@@ -1,0 +1,128 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+    html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+nav{
+    height: 58px;
+    width: 100%;
+    padding: 0px 8px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0px 10px;
+}
+.sec1 img{
+    height: 40px;
+}
+.search{
+    background-color: #F0F2F5;
+    height: 40px;
+    width: 235px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 5px;
+}
+.search i{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: .9rem;
+}
+.search input{
+    background-color: transparent;
+    height: 80%;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: .9rem;
+    margin-top: 2.5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sec2{
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 10px;
+}
+.sec2 button{
+    border: none;
+    height: 100%;
+    width: 10vw;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 10px;
+}
+.sec2 button:nth-child(4){
+    display: none;
+}
+.sec2 button i{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.sec2 button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.sec3{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 0px 10px;
+}
+.sec3 button{
+    height: 40px;
+    background-color: #e3e3e3;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.4rem;
+}
+.sec3 button:nth-child(1){
+    height: 35px;
+    width: 110px;
+    border-radius: 15px;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 0px 5px;
+    margin-top: 3px;
+    padding-top: 2px;
+}
+.sec3 button:nth-child(3){
+    display: none;
+}

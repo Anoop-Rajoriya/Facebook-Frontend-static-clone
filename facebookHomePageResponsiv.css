@@ -1,0 +1,78 @@
+
+/* nav responsiv code  */
+@media (max-width : 1200px) {
+    .sec1{
+        width: auto;
+    }
+    .search input{
+        display: none;
+    }
+    .search i{
+        font-size: 1rem;
+    }
+    .search{
+        width: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec3 button:nth-child(1){
+        display: none;
+    }
+}
+@media (max-width : 1100px) {
+    .sec2 button:nth-child(4){
+        display: inline;
+    }
+    .sec3 button:nth-child(2){
+        display: none;
+    }
+    .sec3 button:nth-child(3){
+        display: inline;
+    }
+    #maindivsec0{
+        display: none;
+    }
+}
+@media (max-width : 700px) {
+    .sec2{
+        display: none;
+    }
+}
+
+
+@media (min-width: 900px) {
+    #maindiv{
+        display: flex;
+    }   
+    #maindivsec1{
+        padding: 0px 1.5rem;
+    }
+    #maindivsec2{
+        display: inline-block;
+        z-index: 9;
+    }
+    #maindivsec3{
+        display: none;
+    }
+}
+
+@media (min-width: 1100px) {
+    #maindivsec0{
+        display: inline-block;
+    }
+}
+
+@media (min-width: 450px) {
+    #userpostcards{
+        height: 38rem;
+    }
+    
+}
+@media (min-width: 700px) {
+    #userpostcards{
+        height: 42rem;
+    }
+    
+}

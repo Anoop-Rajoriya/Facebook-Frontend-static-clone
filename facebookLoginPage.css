@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0F2F5;
+    position: relative;
+}
+main section:nth-child(1){
+    width: 55%;
+    height: 100%;
+}
+main section:nth-child(1){
+    padding-left: 150px;
+    padding-top: 200px;
+}
+main section:nth-child(1) h1{
+    color: #0866FF;
+    font-size: 4rem;
+    font-weight: 600;
+    cursor: default;
+}
+main section:nth-child(1) p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+main section:nth-child(2){
+    width: 45%;
+    height: 100%;
+    padding-top: 135px;
+    padding-left: 50px;
+}
+main section:nth-child(2) form{
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+#email{
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    padding: 0px  15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+#password{
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    padding: 0px  15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+#login{
+    height: 45px;
+    border-radius: 6px;
+    border: 2px solid #1877F2;
+    background-color: #1877F2;
+    font-size: 1.25rem;
+    padding: 0px  15px;
+    color: white;
+    font-weight: 600;
+}
+#login:active{
+    border: 2px solid #79b1fb;
+}
+#forgot{
+    text-align: center;
+    text-decoration: none;
+    font-size: .8rem;
+    color: #1877F2;
+}
+#forgot:hover{
+    text-decoration: underline;
+}
+main section:nth-child(2) form hr{
+    border: .8px solid rgba(0, 0, 0, 0.1);
+    margin: 11px 0px;
+}
+#creat{
+    height: 50px;
+    min-width: 180px;
+    border-radius: 6px;
+    border: none;
+    background-color: #42B72A;
+    border: 1px solid #42B72A;
+    font-size: 1rem;
+    color: white;
+    font-weight: 510;
+    align-self: center;
+    padding: 0px 12px;
+}
+#creat:hover{
+    background-color: #3dab26;
+}
+#creat:active{
+    border: 2px solid #79a770;
+}
+main section:nth-child(2) div{
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    font-size: .8rem;
+    white-space: nowrap;
+    justify-content: center;
+}
+main section:nth-child(2) div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 5px;
+}
+main section:nth-child(2) div a:hover{
+    text-decoration: underline;
+}
+
+/* responsiv code  */
+
+@media (max-width: 1010px ) {
+
+    main section:nth-child(1){
+        padding-left: 4vw;
+        width: 50%;
+    }
+    main section:nth-child(1) h1{
+        font-size: 3rem;
+    }
+    main section:nth-child(1) p{
+        font-size: 1.25rem;
+    }
+
+    main section:nth-child(2){
+        width: 50%;
+        padding-left: 5px;
+    }
+    main section:nth-child(2) form{
+        height: 280px;
+        width: 360px;
+    }
+    main section:nth-child(2) div{
+       width: 360px;
+    }
+    #login{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 780px) {
+    main{
+        flex-direction: column;
+    }
+    main section:nth-child(1){
+        padding: 0px 0px;
+    }
+    main section:nth-child(1){
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    main section:nth-child(1) h1{
+        font-size: 1.5rem;
+    }
+    main section:nth-child(1) p{
+        font-size: 1rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    main section:nth-child(2){
+        padding: 0px 0px;
+    }
+    main section:nth-child(2){
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main section:nth-child(2) form{
+        height: 300px;
+        width: 300px;
+    }
+    main section:nth-child(2) div{
+       width: 300px;
+       font-size: .6rem;
+       margin-top: 25px;
+    }
+}

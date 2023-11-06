@@ -1,0 +1,169 @@
+
+#maindivsec2{
+width: 360px;
+height: 100%;
+display: flex;
+justify-content: center;
+overflow: auto;
+display: none;
+}
+#maindivsec2 section{
+max-width: 355px;
+min-width: 280px;
+height: 857px;
+padding-top: 22px;
+padding-left: 10px;
+padding-right: 10px;
+}
+#friendsrequests{
+width: 100%;
+border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.friendsrequestshead{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.friendsrequestshead label{
+text-transform: capitalize;
+font-size: 1rem;
+font-weight: 800;
+color: rgba(0, 0, 0, 0.6);
+}
+.friendsrequestshead a{
+text-decoration: none;
+text-transform: capitalize;
+font-size: .9rem;
+color: #0862F6;
+padding: 5px;
+border-radius: 5px;
+}
+.friendsrequestshead a:hover{
+background-color: #bdbcbc;
+}
+
+#contects{
+width: 100%;
+margin-top: 22px;
+padding-left: 10px;
+}
+.contectshead{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.contectshead label{
+text-transform: capitalize;
+font-size: 1rem;
+font-weight: 800;
+color: rgba(0, 0, 0, 0.6);
+}
+.contectshead div{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.contectshead div a{
+text-decoration: none;
+border-radius: 50%;
+padding: 3px 6px;
+text-align: center;
+}
+.contectshead div a:hover{
+background-color: #bdbcbc;
+}
+.contectshead div a i{
+font-size: 1.2rem;
+font-weight: 600;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.friendsrequestcard{
+width: 100%;
+height: 5rem;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-bottom: 10px;
+}
+.friendsrequestcard:hover{
+background-color: #bdbcbc;
+}
+.friendsrequestcard img{
+background-color: blue;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+border: 1px solid blue;
+}
+.friendsrequestcard>div{
+width: 70%;
+height: 60px;
+}
+.friendsrequestcard>div div:nth-child(1){
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.friendsrequestcard>div div:nth-child(1) h5{
+font-size: .9rem;
+font-weight: 800;
+text-transform: capitalize;
+color: rgba(0, 0, 0, .9);
+}
+.friendsrequestcard>div div:nth-child(1) p{
+font-size: .8rem;
+font-weight: 600;
+color: rgba(0, 0, 0, 0.5);
+}
+.friendsrequestcard>div div:nth-child(2){
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 8px;
+}
+.friendsrequestcard>div div:nth-child(2) a{
+background-color: #0862F6;
+border-radius: 6px;
+color: white;
+text-decoration: none;
+font-weight: 800;
+text-transform: capitalize;
+height: 2rem;
+width: 45%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.friendsrequestcard>div div:nth-child(2) a:nth-child(2){
+background-color: rgba(114, 114, 114, 0.2);
+color: rgba(0, 0, 0, 0.5);
+}
+
+.friendscontectscard{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+height: 3.5rem;
+padding: 0px 10px;
+gap: 10px;
+border-radius: 8px;
+}
+.friendscontectscard:hover{
+background-color: #bdbcbc;
+}
+.friendscontectscard img{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background-color: #0862F6;
+border: 1px solid #0862F6;
+}
+.friendscontectscard h5{
+font-size: .9rem;
+font-weight: 800;
+text-transform: capitalize;
+color: rgba(0, 0, 0, .9);
+}
