@@ -2,7 +2,7 @@
 </br>
 <h3>Project Title:-</h3>
 <b>Facebook clone</b>
-<p>This is Facebook Front-end clone</p>
+<p>This is Static Facebook Front-end clone</p>
 
 <h3>Project Description:-</h3>
 <p>In this i used pure html,css,js(javascript)</p>
