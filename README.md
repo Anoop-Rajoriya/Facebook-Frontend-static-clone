@@ -10,5 +10,14 @@
 <h3>How to Install and Run the Project:-</h3>
 <b>If you run this project you can follow this few steps:-</b>
 </br>
-<p>git clone "Project url"</p>
-<p>index.html open with live server</p>
+<p>git clone "Project url" use this command to clone project repo</p>
+<p>index.html open with live server to run this project</p>
+
+<h3>This is also a resposiv you can see images:-</h3>
+
+</br>
+<img src='' alt='images'>
+</br>
+<img src='' alt='images'>
+</br>
+<img src='' alt='images'>
